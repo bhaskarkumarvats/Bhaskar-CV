@@ -1,12 +1,15 @@
 * {
-    text-align: center;
     margin: 0;
+    color: #194769;
 }
 
 hr {
     /* set the margin of top and bottom of 100px and left right of 0 */
-    width: 10%;
+    border-color: #1abc9c;
+    border-style: dotted none none none;
+    border-width: 8px;
     margin: auto;
+    width: 10%;
     /* border-top: dotted;
     border-bottom: none;
     border-left: none;
@@ -14,25 +17,32 @@ hr {
     
     replaced this code with this shorthand*/
 
-    border-style: dotted none none none;
-    border-width: 8px;
-    border-color: #1abc9c;
 
 }
 
-.web{
-    color: #ffd700;
-}
 
 .introduction {
-    padding: 50px;
-    color: #194769;
     background-color: #f7f7f7;
     margin-bottom: 20px;
+    padding: 50px;
+    text-align: center;
 }
 
 .profilePhoto {
-    width: 100px;
     border-radius: 50%;
     margin: 20px;
+    width: 100px;
+}
+
+.skills{
+    margin: 20px;
+}
+.skills li{
+    color: #333333;
+    padding: 3px;
+}
+
+.web {
+    color: #642497;
+    text-decoration: underline double;
 }
